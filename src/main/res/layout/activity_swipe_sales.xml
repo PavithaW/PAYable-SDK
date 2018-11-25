@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@android:color/white"
+    tools:context="com.cba.androidpayablesdk.SwipeSalesActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/txtStatus"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approval Code is "
+        android:id="@+id/txtApprovalCode"
+        android:layout_below="@+id/txtStatus"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RRN is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtRRN"
+        android:layout_below="@+id/txtApprovalCode"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CardHolder is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtcardHolder"
+        android:layout_below="@+id/txtRRN"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cc4Last4 are "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtccLast4"
+        android:layout_below="@+id/txtcardHolder"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STN is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtstn"
+        android:layout_below="@+id/txtccLast4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtAmount"
+        android:layout_below="@+id/txtstn"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Batch No is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtBatchNo"
+        android:layout_below="@+id/txtAmount"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Type is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtCardType"
+        android:layout_below="@+id/txtBatchNo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date is "
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtDate"
+        android:layout_below="@+id/txtCardType"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

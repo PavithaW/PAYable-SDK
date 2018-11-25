@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cba.androidpayablesdk.OpenTxDetails_Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Card Holder :"
+        android:id="@+id/txtCardHolder"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtCardHolderValue"
+        android:layout_alignBaseline="@+id/txtCardHolder"
+        android:layout_toRightOf="@+id/txtCardHolder"
+        android:layout_toEndOf="@+id/txtCardHolder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount :"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/txtAmount"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtCardHolder"
+        android:layout_alignLeft="@+id/txtCardHolder"
+        android:layout_alignStart="@+id/txtCardHolder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtAmountValue"
+        android:layout_alignBaseline="@+id/txtAmount"
+        android:layout_toRightOf="@+id/txtAmount"
+        android:layout_toEndOf="@+id/txtAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ccLast4 :"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtccLast4"
+        android:layout_below="@+id/txtAmount"
+        android:layout_alignLeft="@+id/txtAmount"
+        android:layout_alignStart="@+id/txtAmount" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtccLast4Value"
+        android:layout_alignBaseline="@+id/txtccLast4"
+        android:layout_toRightOf="@+id/txtccLast4"
+        android:layout_toEndOf="@+id/txtccLast4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date :"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtDate"
+        android:layout_below="@+id/txtccLast4"
+        android:layout_alignLeft="@+id/txtccLast4"
+        android:layout_alignStart="@+id/txtccLast4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtDateValue"
+        android:layout_alignBaseline="@+id/txtDate"
+        android:layout_toRightOf="@+id/txtDate"
+        android:layout_toEndOf="@+id/txtDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Approval Code :"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtApprovalCode"
+        android:layout_below="@+id/txtDate"
+        android:layout_alignLeft="@+id/txtDate"
+        android:layout_alignStart="@+id/txtDate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textColor="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/txtApprovalCodeValue"
+        android:layout_alignBaseline="@+id/txtApprovalCode"
+        android:layout_toRightOf="@+id/txtApprovalCode"
+        android:layout_toEndOf="@+id/txtApprovalCode" />
+
+</RelativeLayout>

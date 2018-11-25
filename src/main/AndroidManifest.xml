@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cba.androidpayablesdk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EnterOpenTxDetails_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpenTxListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterCloseTxDetails_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CloseTxListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OpenTxDetails_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterSwipeSales_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SwipeSalesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VoidActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignatureActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettlementSummary_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SettleActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EnterBatchList_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BatchList_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Logout"
+            android:screenOrientation="portrait" />
+        <activity android:name=".OpenTxListActivity_2" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".CloseTxListActivity_2"></activity>
+    </application>
+
+</manifest>

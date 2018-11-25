@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sales Total is"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtSalesTotal"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of Sales are"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/txtNoSales"
+        android:layout_below="@+id/txtSalesTotal"
+        android:layout_alignLeft="@+id/txtSalesTotal"
+        android:layout_alignStart="@+id/txtSalesTotal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Void Total is"
+        android:textSize="12sp"
+        android:id="@+id/txtVoidTotal"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtNoSales"
+        android:layout_alignLeft="@+id/txtNoSales"
+         />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No of Voids are "
+        android:id="@+id/txtNoVoids"
+        android:textSize="12sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/txtVoidTotal"
+        android:layout_alignLeft="@+id/txtVoidTotal"
+        android:layout_alignStart="@+id/txtVoidTotal" />
+</RelativeLayout>

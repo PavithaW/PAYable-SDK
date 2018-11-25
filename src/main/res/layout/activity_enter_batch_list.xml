@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.cba.androidpayablesdk.EnterBatchList_Activity">
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:ems="10"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:hint="Enter Page Id"
+        android:id="@+id/edtPageId"
+        android:imeOptions="actionNext"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="45dp"
+        android:inputType="number"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textSize="14sp"
+        android:imeOptions="actionDone"
+        android:gravity="center"
+        android:hint="Enter Page Size"
+        android:id="@+id/edtPageSize"
+        android:layout_below="@+id/edtPageId"
+        android:layout_alignLeft="@+id/edtPageId"
+        android:layout_alignStart="@+id/edtPageId" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+
+        android:textSize="14sp"
+        android:id="@+id/btnSubmit"
+        android:layout_below="@+id/edtPageSize"
+        android:layout_marginTop="60dp"
+        android:layout_alignRight="@+id/edtPageSize"
+        android:layout_alignEnd="@+id/edtPageSize"
+        android:layout_alignLeft="@+id/edtPageSize"
+        android:layout_alignStart="@+id/edtPageSize" />
+
+</RelativeLayout>
